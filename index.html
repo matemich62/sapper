@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sapper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form name="formfield">
+        <select name="complexity" id="">
+            <option value="easy">легко</option>
+            <option value="medium" selected>средне</option>
+            <option value="hard">сложно</option>
+        </select>
+        <input type="button" value="начать" onclick="createLevel();">
+    </form>
+    <div class="score">
+        <div class="emptySquare">
+            <div class="square"></div>
+            <h3 class="countEmptySquare"></h3>
+        </div>
+        <div class="flags">
+            <img src="./img/flag.png" alt="флаг">
+            <h3 class="countFlags"></h3>
+        </div>
+    </div>
+    <div class="field"></div>
+</body>
+
+</html>
